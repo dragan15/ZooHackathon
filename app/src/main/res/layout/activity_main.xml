@@ -10,8 +10,36 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.stefanretief.zoohackathon.MainActivity">
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:inputType="textPersonName"
+        android:text="From"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fromLoc" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="To"
+        android:ems="10"
+        android:layout_below="@+id/fromLoc"
+        android:layout_alignRight="@+id/fromLoc"
+        android:layout_alignEnd="@+id/fromLoc"
+        android:layout_marginTop="25dp"
+        android:id="@+id/toLoc" />
+
+    <Button
+        android:text="Voyage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toLoc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:id="@+id/Voyage"
+        android:elevation="0dp"
+        android:visibility="visible" />
 </RelativeLayout>
