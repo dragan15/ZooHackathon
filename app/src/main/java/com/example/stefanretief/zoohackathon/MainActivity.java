@@ -1,6 +1,7 @@
 package com.example.stefanretief.zoohackathon;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,7 +16,9 @@ public class MainActivity extends Activity {
 
         final Button startVoyage = (Button) findViewById(R.id.Voyage);
         startVoyage.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(MainActivity.this, InitialVoyage.class));
 
             }
         });

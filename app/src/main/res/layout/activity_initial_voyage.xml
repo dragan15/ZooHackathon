@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_initial_voyage"
     android:layout_width="match_parent"
@@ -10,4 +11,36 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.stefanretief.zoohackathon.InitialVoyage">
 
+    <EditText
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="From"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/FromVoyage"
+        android:layout_width="150dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="?android:attr/floatingToolbarCloseDrawable"
+        android:layout_alignBottom="@+id/FromVoyage"
+        android:id="@+id/imageView"
+        android:layout_toRightOf="@+id/FromVoyage"
+        android:layout_toEndOf="@+id/FromVoyage"
+        android:clickable="false"
+        android:rotation="180" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="To"
+        android:ems="10"
+        android:layout_width="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:id="@+id/ToVoyage" />
 </RelativeLayout>
