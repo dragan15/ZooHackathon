@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+=======
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -41,6 +45,11 @@
         android:ems="10"
         android:id="@+id/editText5"
         android:layout_weight="0.15"
+<<<<<<< HEAD
         android:text="This is the Blyths Hawk Eagle. They have amazing vision and because of that they aren't approaching the point were they are considered endangered but they should still be protected. They can be found in Indonesia. They are dying because of deforestation. " />
+=======
+        android:text="This is the Blyths Hawk eagle." />
+>>>>>>> 20c6910004a6370f2ff020e2011a4994fc96e0cf
+>>>>>>> aedfe894ba14c20da7e60fc39258213eacb5e35c
 
 </LinearLayout>

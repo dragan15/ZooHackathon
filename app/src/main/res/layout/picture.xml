@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="                                              Pictures \nsome pictures of illegal traded products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/horns"
+            android:id="@+id/imageView5"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/ivory"
+            android:id="@+id/imageView3"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/fur"
+            android:id="@+id/imageView4"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/tigertooth"
+            android:id="@+id/imageView6"
+            android:layout_row="1"
+            android:layout_column="1" />
+    </GridLayout>
+</LinearLayout>
