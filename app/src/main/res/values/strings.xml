@@ -11,19 +11,24 @@
     <!-- United States-->
     <string name="apalone_name">Spiny Softshell Turtle</string>
     <string name="apalone_sci_name">Apalone Spinitera</string>
-    <string name="apalone_hunted_for"></string>
-    <string name="northen_otter_name">Northen American Otter</string>
-    <string name="northern_otter_sci_name"></string>
-    <string name="triaches_name_sci">Trichechus Mantis</string>
-    <string name="triaches_name">Caribbean Manatee, North American Manatee, West Indian Manatee</string>
-    
 
+    <string name="northen_otter_name">Northen American Otter</string>
+    <string name="northern_otter_sci_name">Londra canadensis</string>
+    <string name="triaches_name_sci">Trichechus Manatus</string>
+    <string name="triaches_name">Caribbean Manatee, North American Manatee, West Indian Manatee</string>
+    <!-- Information-->
+    <string name="northern_otter_info">The North American River Otter is considered
+        to be Least Concern as it is not currently declining at a rate sufficient for a threat category. </string>
+    <string name="triaches_info"></string>
+    <string name="apalone_info"></string>
+
+    <string name="apalone_hunted_for"></string>
 
     <!-- Indonesia-->
     <string name="bearcat_name">BearCat</string>
     <string name="bearcat_sci_name">Artictis binturong</string>
 
-    <string name="apalone_"> </string>
+
     <!--Country names-->
 
     <string name="usa_name">United States</string>
