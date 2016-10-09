@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">ZooHackathon</string>
     <string name="most_popular">Most Popular</string>
+    <string name="gazella_name"Indian Gazelle</string>
+    <string name="gazella_sci_name">Gazella Bennettii</string>
+    <string name="southern_coati_name">Southern Coatti</string>
+    <string name="nasua_sci_name">Nasua nasua</string>
+    <string name="">Gazella Bennettii</string>
+    <string name="gazella_sci_name">Indian Gazelle</string>
 </resources>
