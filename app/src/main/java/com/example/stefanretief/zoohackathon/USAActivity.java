@@ -7,5 +7,6 @@ import android.app.Activity;
  * AEON CODING
  */
 
-public class SearchActivity extends Activity {
+public class USAActivity extends Activity {
 }
+

@@ -18,7 +18,8 @@
         android:ems="10"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/fromLoc" />
+        android:id="@+id/fromLoc"
+        tools:ignore="HardcodedText" />
 
     <EditText
         android:layout_width="wrap_content"
