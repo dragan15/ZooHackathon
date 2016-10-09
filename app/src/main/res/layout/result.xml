@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app=""
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="The correct answer is:"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:id="@+id/correct answer" />
+
+    <ImageView
+        android:layout_height="150dp"
+        app2:srcCompat="@drawable/imgres"
+        android:id="@+id/imageView2"
+        android:layout_weight="0.20"
+        android:layout_width="400dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:text="Appendix 2:                                                        Products made from the Indonesian Cobra:                                                          - Snake skin wallets                                                          - Snake skin belts                                                         - Snakehead keychains     " />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:text="Alternatives:                                                                                            -Wallets made from other material such as  aluminum                                                                                          -Look for other souvenirs while on your trip" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                app2:srcCompat="@drawable/images"
+                android:id="@+id/imageView17" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                app2:srcCompat="@drawable/wallet"
+                android:id="@+id/imageView16" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
