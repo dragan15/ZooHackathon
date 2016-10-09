@@ -21,7 +21,8 @@
         android:layout_width="150dp"
         tools:ignore="HardcodedText"
         android:inputType="textAutoComplete"
-        android:hint="From" />
+        android:hint="From"
+        android:textAlignment="center" />
 
     <ImageView
         android:layout_width="45dp"
@@ -38,7 +39,6 @@
 
     <EditText
         android:layout_height="wrap_content"
-        android:text="To"
         android:ems="10"
         android:layout_width="150dp"
         android:layout_alignParentTop="true"
@@ -47,16 +47,7 @@
         android:id="@+id/ToVoyage"
         tools:ignore="HardcodedText"
         android:inputType="textAutoComplete"
-        android:hint="To" />
-
-    <TextView
-        android:text="@string/most_popular"
-        android:layout_width="100dp"
-        android:layout_height="45dp"
-        android:layout_below="@+id/FromVoyage"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="12dp"
-        android:id="@+id/textView2" />
+        android:hint="To"
+        android:textAlignment="center" />
 
 </RelativeLayout>
