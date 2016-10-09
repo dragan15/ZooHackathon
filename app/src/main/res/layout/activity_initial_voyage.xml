@@ -22,7 +22,8 @@
         tools:ignore="HardcodedText"
         android:inputType="textAutoComplete"
         android:hint="From"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:text="United States" />
 
     <ImageView
         android:layout_width="45dp"
@@ -48,6 +49,7 @@
         tools:ignore="HardcodedText"
         android:inputType="textAutoComplete"
         android:hint="To"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:text="Indonesia" />
 
 </RelativeLayout>
