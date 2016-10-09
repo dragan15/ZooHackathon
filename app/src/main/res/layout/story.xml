@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="400dp"
+        app:srcCompat="@drawable/manatee"
+        android:id="@+id/imageView5"
+        android:layout_weight="0.15"
+        android:layout_height="100dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_weight="0.15"
+        android:text="This is an American Manatee. They are endangered because its population of adults is less than 10.000. These manatees can usually be found near the coast of Florida however they often go through extensive migrations. They face many hardships such as pollution and accidents with boats while they are swiming. There are certain actions that you can take to help theses little guys such as abiding by the boating speed limits so that you don't accidentally end up hitting one of them or helping keeep our oceans clean." />
+
+    <ImageView
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/blyths"
+        android:id="@+id/imageView7"
+        android:layout_weight="0.09"
+        android:layout_width="400dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_weight="0.15"
+        android:text="This is the Blyths Hawk eagle." />
+
+</LinearLayout>
