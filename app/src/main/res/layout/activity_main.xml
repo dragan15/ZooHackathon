@@ -15,34 +15,35 @@
         android:layout_height="wrap_content"
         android:inputType="textAutoComplete"
         android:ems="10"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/fromLoc"
+        android:id="@+id/toLoc"
+        android:hint="To"
         tools:ignore="HardcodedText"
-        android:hint="From" />
+        android:layout_marginTop="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textAutoComplete"
         android:ems="10"
-        android:layout_below="@+id/fromLoc"
-        android:layout_alignRight="@+id/fromLoc"
-        android:layout_alignEnd="@+id/fromLoc"
-        android:layout_marginTop="25dp"
-        android:id="@+id/toLoc"
-        android:hint="To"
-        tools:ignore="HardcodedText" />
+        android:id="@+id/fromLoc"
+        tools:ignore="HardcodedText"
+        android:hint="From"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/toLoc"
+        android:layout_alignLeft="@+id/toLoc"
+        android:layout_alignStart="@+id/toLoc" />
 
     <Button
         android:text="Voyage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/toLoc"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp"
         android:id="@+id/Voyage"
         android:elevation="0dp"
         android:visibility="visible"
-        tools:ignore="HardcodedText,UnusedAttribute" />
+        tools:ignore="HardcodedText,UnusedAttribute"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

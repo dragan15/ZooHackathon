@@ -24,15 +24,15 @@ public class MainActivity extends Activity {
                 @Override
                 public void onClick(View v) {
 
-                    if (from.getText() != "From" && to.getText() != "To") {
+                    //if (from.getText() != "From" && to.getText() != "To") {
                         Intent goToVoyage = new Intent(MainActivity.this, InitialVoyage.class);
                         goToVoyage.putExtra("fromVal", from.getText());
                         goToVoyage.putExtra("toVal", to.getText());
                         startActivity(goToVoyage);
-                    }
-                    else {
+                    //}
+                    //else {
                         //do something about empty fields
-                    }
+                    //}
 
             }
         });
