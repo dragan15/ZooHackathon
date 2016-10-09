@@ -44,12 +44,234 @@
         android:layout_width="150dp"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/imageView"
-        android:layout_toEndOf="@+id/imageView"
         android:id="@+id/ToVoyage"
-        tools:ignore="HardcodedText"
+        tools:ignore="HardcodedText,RtlHardcoded"
         android:inputType="textAutoComplete"
         android:hint="To"
         android:textAlignment="center"
-        android:text="Indonesia" />
+        android:text="Indonesia"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/FromVoyage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/fromTab"
+        android:layout_height="225dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessLeaf"
+            android:id="@+id/flagRow">
+
+            <ImageView
+                android:layout_height="50dp"
+                app:srcCompat="@android:color/black"
+                android:id="@+id/FromFlagLogo"
+                android:layout_width="350dp"
+                tools:ignore="ContentDescription" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/FromTable">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/frominfo1"
+                tools:ignore="UselessParent">
+
+                <TableRow
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/row1From">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        app:srcCompat="@android:drawable/presence_busy"
+                        android:id="@+id/appendix1From"
+                        tools:ignore="ContentDescription" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/row2From">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        app:srcCompat="@android:drawable/presence_away"
+                        android:id="@+id/appendix2From"
+                        tools:ignore="ContentDescription" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/row3From">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        app:srcCompat="@android:drawable/presence_online"
+                        android:id="@+id/appendix3From"
+                        tools:ignore="ContentDescription" />
+                </TableRow>
+
+            </TableLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/learnMoreFromTable">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/learnMoreFromiTable"
+                tools:ignore="UselessParent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/LearnMoreFromSpacing">
+
+                    <Space android:layout_height="50dp"
+                        android:layout_width="225dp"
+                        android:id="@+id/learnMoreFromSpacer" />
+
+                    <Button
+                        android:text="Learn More"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/learnMoreFrom"
+                        tools:ignore="HardcodedText" />
+                </TableRow>
+
+            </TableLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:id="@+id/toTab"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="225dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessLeaf"
+            android:id="@+id/flagRowTo">
+
+            <ImageView
+                android:layout_height="50dp"
+                app:srcCompat="@android:color/black"
+                android:id="@+id/toFlagLogo"
+                android:layout_width="350dp"
+                tools:ignore="ContentDescription" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ToTable">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/toInfo1"
+                tools:ignore="UselessParent">
+
+                <TableRow
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/row1To">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        app:srcCompat="@android:drawable/presence_busy"
+                        android:id="@+id/appendix1To"
+                        tools:ignore="ContentDescription" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/row2To">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        app:srcCompat="@android:drawable/presence_away"
+                        android:id="@+id/appendix2To"
+                        android:contentDescription=""
+                        tools:ignore="ContentDescription" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/row3To">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        app:srcCompat="@android:drawable/presence_online"
+                        android:id="@+id/appendix3To"
+                        tools:ignore="ContentDescription" />
+                </TableRow>
+
+            </TableLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/learnMoreToTable">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/learnMoreToiTable"
+                tools:ignore="UselessParent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/LearnMoreToSpacing">
+
+                    <Space android:layout_height="50dp"
+                        android:layout_width="225dp"
+                        android:id="@+id/learnMoreToSpacer" />
+
+                    <Button
+                        android:text="Learn More"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/learnMoreTo"
+                        tools:ignore="HardcodedText" />
+                </TableRow>
+
+            </TableLayout>
+
+        </TableRow>
+
+    </TableLayout>
 
 </RelativeLayout>
