@@ -1,11 +1,40 @@
 <resources>
+
     <string name="app_name">ZooHackathon</string>
     <string name="most_popular">Most Popular</string>
-    <string name="gazella_name"Indian Gazelle</string>
+    <!-- India-->
+    <string name="gazella_name">Indian Gazelle</string>
     <string name="gazella_sci_name">Gazella Bennettii</string>
+    <!-- South America-->
     <string name="southern_coati_name">Southern Coatti</string>
     <string name="nasua_sci_name">Nasua nasua</string>
-    <string name="">Gazella Bennettii</string>
-    <string name="gazella_sci_name">Indian Gazelle</string>
+    <!-- United States-->
+    <string name="apalone_name">Spiny Softshell Turtle</string>
+    <string name="apalone_sci_name">Apalone Spinitera</string>
+    <string name="apalone_hunted_for"></string>
+    <string name="northen_otter_name">Northen American Otter</string>
+    <string name="northern_otter_sci_name"></string>
+    <string name="triaches_name_sci">Trichechus Mantis</string>
+    <string name="triaches_name">Caribbean Manatee, North American Manatee, West Indian Manatee</string>
+
+
+
+    <!-- Indonesia-->
+    <string name="bearcat_name">BearCat</string>
+    <string name="bearcat_sci_name">Artictis binturong</string>
+
+    <string name="apalone_"> </string>
+    <!--Country names-->
+
+    <string name="usa_name">United States</string>
+    <string name="indonesia_name">Indonesia</string>
+    <string name="india_country">Country</string>
+
+
+
+
+
+
+
 </resources>
 
