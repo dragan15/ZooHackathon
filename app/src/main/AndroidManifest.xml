@@ -32,7 +32,7 @@
         <activity
             android:theme="@style/AppMain"
             android:screenOrientation="portrait"
-            android:name=".SearchActivity">
+            android:name=".USAActivity">
         </activity>
     </application>
 
