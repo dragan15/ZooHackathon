@@ -85,7 +85,8 @@
                     <li><a runat="server" href="~/">Home</a></li>
                     <li><a runat="server" href="~/About">About</a></li>
                     <li><a runat="server" href="~/Contact">Contact</a></li>
-                    
+                    <li><a runat="server" href="~/">Somthing</a></li>
+                    <li><a runat="server" href="~/">Somthing</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a runat="server" href="~/Account/Register">Register</a></li>
@@ -302,7 +303,7 @@
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Fauna Voyage 2016. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
                 </div>
             </div>
         </div>
